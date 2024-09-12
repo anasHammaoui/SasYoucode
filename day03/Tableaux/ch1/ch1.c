@@ -6,5 +6,5 @@ int main() {
     printf("%d\n",table[1]);
     printf("%d\n",table[2]);
     printf("%d\n",table[3]);
-    printf("%d\n",table[4]);
+    printf("%d\n",table[4  ]);
 }
