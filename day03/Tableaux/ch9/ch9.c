@@ -9,7 +9,7 @@ int main() {
     //     }
     // }
   //afficher la version reverse
-    for (int i =  sizeof(table)/sizeof(table[0]) -1;i >= 0; i--) {
+    for (int i = sizeof(table)/sizeof(table[0]) -1;i >= 0; i--) {
         printf("%d ",table[i]);
     }
 
