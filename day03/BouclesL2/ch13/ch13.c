@@ -8,6 +8,7 @@ int main(){
     // commencer la calculation
     int somme =0;
     for (int i = 1;i<= 10;i++) {
+        printf("=> %d * %d = %d\n",i,num,i*num);
         somme = somme + i*num;
     }
     printf("la somme est: %d",somme);
