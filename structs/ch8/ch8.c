@@ -1,15 +1,15 @@
 #include <stdio.h>
-#include <string.h>
-struct bank {
-    char nom[30];
-    float sold;
-}bank1;
-int ajout(float num) {
-    bank1.sold = bank1.sold + num;
+#include <math.h>
+struct cercle {
+    float rayon;
+};
+int calcAir(struct cercle c) {
+    return pow(c.rayon,2) * 3.14;
 }
 int main() {
-    float add = 23.5;
-   strcpy(bank1.nom,"Hammaoui");
-   bank1.sold = 230;
-    printf("%s tu ajout %.2f, votre sold maintenant est: %.2fDH",bank1.nom, add,bank1.sold);
+    struct cercle cercle1;
+    printf("Entrer le rayon de cercle: ");
+    scanf("%f",&cercle1.rayon);
+    float air = calcAir(cercle1);
+    printf("l'air de cercle est: %.2f", air);
 }
